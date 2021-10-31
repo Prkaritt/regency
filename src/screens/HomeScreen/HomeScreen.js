@@ -5,6 +5,9 @@ import srilanka from "./../../assets/images/srilanka.jpg"
 import dubai from "./../../assets/images/dubai.jpg"
 import thailand from "./../../assets/images/thailand.jpg"
 import singapore from "./../../assets/images/singapore.jpg"
+import japan from "./../../assets/images/japan.jpg"
+import europe from "./../../assets/images/europe.jpg"
+import maldives from "./../../assets/images/maldives.jpg"
 
 const HomeScreen = () => {
     return (
@@ -16,7 +19,7 @@ const HomeScreen = () => {
                 </div>
             </div>
             <div className={styles.section_tours}>
-                <h2>Our Tours</h2>
+                <h2>Where will you make memories in 2021</h2>
                 <ul className={styles.section_tours_list}>
                     <li className={styles.section_tours_tour}>
                         <img src={srilanka} />
@@ -36,6 +39,39 @@ const HomeScreen = () => {
                     </li>
                 </ul>
 
+            </div>
+            <div className={styles.section_bestSellers}>
+                <h2>Best Sellers</h2>
+                <ul className={styles.bestSellers_list}>
+                    <li>
+                        <div className={styles.bestSeller_image}>
+                        <img src={europe} alt="europe Image"/>
+                        </div>
+                        <h3>Europe</h3>
+                        <h3>11 days</h3>
+                    </li>
+                    <li>
+                        <div className={styles.bestSeller_image}>
+                        <img src={singapore} alt="singapore Image"/>
+                        </div>
+                        <h3>S.E Asia</h3>
+                        <h3>7 days</h3>
+                    </li>
+                    <li>
+                        <div className={styles.bestSeller_image}>
+                        <img src={japan} alt="japan Image"/>
+                        </div>
+                        <h3>Japan</h3>
+                        <h3>8 days</h3>
+                    </li>
+                    <li>
+                        <div className={styles.bestSeller_image}>
+                        <img src={maldives} alt="maldives Image"/>
+                        </div>
+                        <h3>South Asia</h3>
+                        <h3>6 days</h3>
+                    </li>
+                </ul>
             </div>
         </div>
     )
