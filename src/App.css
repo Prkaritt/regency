@@ -9,9 +9,23 @@
 
 html{
   font-size: 62.5%;
+  padding: 2rem;
 }
 
 body{
   background-color: var(--color-primary);
   font-size: 1.6rem;
+}
+
+h2{
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.paragraph{
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 1.5px;
 }
